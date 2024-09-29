@@ -4,8 +4,17 @@ import Button from "./Button";
 export default function Header() {
   return (
     <div className="flex flex-col gap-5 max-w-[15rem] min-[1000px]:pl-8 min-[1000px]:max-w-[20rem]">
-      <div className="flex flex-col">
-
+      <div className="flex flex-row w-full justify-between">
+        <div className="flex gap-2 items-center">
+          <p className="text-xs font-light text-white">
+            Software Engineer
+          </p>
+        </div>
+        <div className=" rounded-xl px-3 py-1 bg-[#263A2F] flex gap-2 items-center">
+          <p className="text-[0.5rem] text-[#099552]">
+            Available for work
+          </p>
+        </div>
       </div>
       <h1 className="text-3xl font-semibold">
         Yevhen Balahutrak
