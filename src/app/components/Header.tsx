@@ -1,4 +1,5 @@
 import React from "react";
+import { LuDot } from "react-icons/lu";
 import Button from "./Button";
 
 export default function Header() {
@@ -10,8 +11,9 @@ export default function Header() {
             Software Engineer
           </p>
         </div>
-        <div className=" rounded-xl px-3 py-1 bg-[#263A2F] flex gap-2 items-center">
-          <p className="text-[0.5rem] text-[#099552]">
+        <div className=" rounded-xl px-3 py-1 bg-[#263A2F] flex items-center justify-center relative">
+          <LuDot className="w-4 h-4 text-[#099552] absolute left-1" />
+          <p className="text-[0.5rem] text-[#099552] pl-2">
             Available for work
           </p>
         </div>
