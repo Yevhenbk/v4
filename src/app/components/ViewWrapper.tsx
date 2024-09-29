@@ -8,8 +8,8 @@ export default function ViewWrapper({
   children
 }: Props) {
   return (
-    <div>
+    <main>
       {children}
-    </div>
+    </main>
   );
 };

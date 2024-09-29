@@ -8,9 +8,13 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      width: {
+        "full-minus-2": "calc(100% - 2rem)",
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        midground: "var(--midground)",
       },
     },
   },
